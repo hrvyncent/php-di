@@ -7,7 +7,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Xeno\\": "src/"
+            "Xeno\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     "authors": [
