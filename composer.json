@@ -1,0 +1,23 @@
+{
+    "name": "hrvyncent/php-di",
+    "description": "Demo Dependency Injection using PHP",
+    "type": "library",
+    "require": {
+        "psr/container": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xeno\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xeno",
+            "email": "harvicapino22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2@dev"
+    }
+}
